@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parent_container{
+  background-color: bisque;
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text{
+  width: 50%;
+  padding-left: 175px;
+  padding-top: 350px;
+  color: black
+}
+
+.myName{
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.description{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.proffesion{
+  color: #01756f
+}
+
+.image{
+  position: fixed;
+  bottom: 0px;
+  padding-left: 900px;
+}
